@@ -1,0 +1,10 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = crlf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.{cs,xaml,csproj,json,xml,config,ts,tsx,js,jsx,css,html,md}]
+charset = utf-8

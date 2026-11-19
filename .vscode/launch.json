@@ -1,0 +1,27 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Frontend: npm dev (0.0.0.0:5173)",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "cmd /c npm run dev -- --host 0.0.0.0 --port 5173",
+      "cwd": "${workspaceFolder}/frontend"
+    },
+    {
+      "name": "Backend: C# Debug (0.0.0.0:5095)",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "Build backend",
+      "program": "${workspaceFolder}/backend/backend/bin/Debug/net8.0/backend.dll",
+      "cwd": "${workspaceFolder}/backend/backend",
+      "console": "integratedTerminal",
+      "stopAtEntry": false,
+      "justMyCode": true,
+      "env": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ASPNETCORE_URLS": "http://0.0.0.0:5095"
+      }
+    }
+  ]
+}

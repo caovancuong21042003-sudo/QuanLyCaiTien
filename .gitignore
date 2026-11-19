@@ -1,0 +1,150 @@
+# =========================
+# .NET / Visual Studio / MSBuild
+# =========================
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]rtifacts/
+TestResults/
+⑧DRAWINGS/
+2017-2023梱包仕様/
+Dạng cần chú ý/
+FileGlb/
+FileStep/
+FileStepBiLoi/
+FileStepToCopy/
+FileStepToCopy.rar
+QUẢN LÝ THIẾT BỊ IT1.xlsx
+~$QUẢN LÝ THIẾT BỊ IT1.xlsx
+*.xlsx
+
+**/wwwroot/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.cache
+*.pdb
+*.opendb
+*.VC.db
+*.vsidx
+*.glb
+
+.vs/
+
+# ReSharper / Rider / JetBrains
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+.idea/
+*.sln.iml
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# =========================
+# NuGet
+# =========================
+**/*.nupkg
+**/*.snupkg
+.nuget/
+
+# If using packages.config (old), uncomment:
+# **/packages/*
+# !**/packages/build/
+# !**/packages/repositories.config
+
+# =========================
+# ASP.NET Core local settings / secrets
+# =========================
+# Ignore appsettings by default
+**/appsettings.json
+**/appsettings.*.json
+# Recommend committing examples instead of real secrets
+!**/appsettings.Development.json.example
+!**/appsettings.Production.json.example
+
+# Env files
+**/.env
+**/.env.*
+!**/.env.example
+
+# User secrets (usually not in repo)
+**/*secrets*.json
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+**/logs/
+
+# =========================
+# OS junk
+# =========================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# =========================
+# Docker / Compose runtime
+# =========================
+**/.docker/
+**/docker-data/
+**/docker-volumes/
+
+# =========================
+# React / Node / Frontend
+# =========================
+node_modules/
+.pnp/
+.pnp.js
+
+# build outputs
+dist/
+build/
+.out/
+.next/
+.nuxt/
+.react-router/
+.vite/
+.cache/
+.tmp/
+coverage/
+
+# tooling caches
+.eslintcache
+.stylelintcache
+*.tsbuildinfo
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# Lockfiles: pick one strategy
+# =========================
+# Usually COMMIT exactly one lockfile depending on your package manager.
+# Uncomment the ones you DON'T use.
+
+# If using npm:
+# yarn.lock
+# pnpm-lock.yaml
+
+# If using yarn:
+# package-lock.json
+# pnpm-lock.yaml
+
+# If using pnpm:
+# package-lock.json
+# yarn.lock
